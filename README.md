@@ -88,3 +88,6 @@ O desafio original sugeria o uso do endpoint `https://www.random.org/integers/?n
 No entanto, para que os campos `Min` e `Max` do conector fossem funcionais e pudessem ser dinamicamente definidos pelo usuário no workflow, a implementação utiliza uma abordagem mais flexível. O conector monta a URL de requisição (`https://www.random.org/integers/`) e anexa os parâmetros `min` e `max` com base nos valores fornecidos pelo usuário na interface do n8n.
 
 O uso do endpoint com valores fixos (`min=1&max=60`) invalidaria o propósito principal do conector, que é permitir a total personalização do intervalo de números.
+
+## ✉️ Contato
+Desenvolvido por Gabriel Tavares de Souza - gabrieltavaresds11@gmail.com
