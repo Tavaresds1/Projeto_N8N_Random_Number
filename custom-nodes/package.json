@@ -1,0 +1,23 @@
+{
+  "name": "custom-nodes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && copy src\\nodes\\Random\\Random.node.icon.svg dist\\nodes\\Random\\"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "n8n-workflow": "^1.82.0",
+    "typescript": "^5.9.2"
+  },
+  "n8n": {
+    "nodes": [
+      "dist/nodes/Random/Random.node.js"
+    ]
+  }
+}
